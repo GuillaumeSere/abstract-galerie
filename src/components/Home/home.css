@@ -1,0 +1,42 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    color: white;
+    height: 90vh;
+}
+.title{
+    text-align: center;
+    margin-top: 2rem;
+}
+.title span{
+    color:rgb(241, 95, 10);
+}
+.home img{
+    margin-top: 5rem;
+    box-shadow: 5px 10px 5px rgba(0,0,0,0.6);
+}
+
+@media (max-width: 678px){
+    .title{
+        font-size: 22px;
+        margin-top: -5rem;
+    }
+    .home img{
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px){
+    .title{
+        font-size: 18px;
+        margin-top: 2rem;
+    }
+    .home img{
+        height: 500px;
+        width: 300px;
+    }
+}
