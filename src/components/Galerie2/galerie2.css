@@ -461,3 +461,28 @@
     margin-top: -20rem;
     margin-bottom: 20rem;
  } 
+
+ @media (max-width:1800px){
+    .container-galerie-2{
+        position: relative;
+        justify-content: space-around !important;
+        margin: 0 auto;
+        height: 100vh;
+        padding: 1rem;
+        z-index: -1;
+    }
+    .card-galerie-2{
+        width: 200px;
+        height: 200px;
+        margin-right: 1rem !important;
+        margin-bottom: -10rem !important;
+        margin-left: 0 !important;
+    }
+    .card-img-galerie-2 img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.9);
+        overflow: hidden;
+    }
+ }
