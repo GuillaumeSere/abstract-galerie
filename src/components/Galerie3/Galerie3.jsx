@@ -9,6 +9,10 @@ import { data2 } from '../../data/data'
 
 const Galerie3 = () => {
 
+    if (document.body.style.overflow = 'overlay'){
+        document.body.style.overflow = 'hidden';
+       }
+
     useEffect(() => {
         Reveal.initialize({
             width: 1360,
