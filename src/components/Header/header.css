@@ -12,8 +12,8 @@
 }
 .header-logo img{
     display: block !important;
-    border-radius: 50% !important;
-    height: 50px;
+    height: 80px;
+    width: 130px;
     margin-left: 50%;
 }
 .link{
