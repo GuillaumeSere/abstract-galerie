@@ -14,3 +14,13 @@
 .progress{
     bottom: 60px !important;
 }
+
+@media (max-width: 500px){
+    .fragments{
+        height: 800px !important;
+        width: 800px !important;
+    }
+    .controls{
+        bottom: 800px !important;
+    }
+}

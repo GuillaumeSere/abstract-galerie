@@ -28,3 +28,9 @@
     font-size: 30px;
     color: white;
 }
+
+@media (max-width: 500px){
+    .header-logo img{
+        display: none !important;
+    }
+}
