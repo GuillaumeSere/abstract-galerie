@@ -7,14 +7,14 @@
     margin: 0 auto;
 }
 .card-galerie-1{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     margin-top: 8rem;
     margin-right: 1rem;
 }
 .card-img-galerie-1 img{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     box-shadow: 5px 5px 10px rgba(196, 196, 196, 0.6);
 }
 
