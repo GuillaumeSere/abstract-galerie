@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './header.css'
 import logo from '../../images/logo.gif'
 import { AiOutlineHome } from 'react-icons/ai'
-import { RiGalleryLine } from 'react-icons/ri'
+import { RiGalleryLine, RiSlideshow4Line } from 'react-icons/ri'
 import { TfiGallery } from 'react-icons/tfi'
 
 const Header = () => {
@@ -18,6 +18,7 @@ const Header = () => {
             <div className="header-link">
                 <Link className='link' to='/galerie-1'><RiGalleryLine className='icon' /></Link>
                 <Link className='link' to='/galerie-2'><TfiGallery className='icon' /></Link>
+                <Link className='link' to='/galerie-3'><RiSlideshow4Line className='icon' /></Link>
             </div>
         </div>
     )

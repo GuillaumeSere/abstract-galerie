@@ -1,0 +1,16 @@
+
+.reveal{
+    position: static!important;
+    height: 100vh;
+}
+.fragments{
+    height: 500px !important;
+    width: 500px !important;
+    margin-top: 5rem !important;
+}
+.controls{
+    bottom: 60px !important;
+}
+.progress{
+    bottom: 60px !important;
+}
