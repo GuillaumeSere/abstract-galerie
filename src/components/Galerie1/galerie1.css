@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 auto;
+    padding-bottom: 10rem;
 }
 .card-galerie-1{
     width: 500px;
