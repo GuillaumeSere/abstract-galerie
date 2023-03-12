@@ -12,10 +12,10 @@ function App() {
     <>
     <Header />
     <Routes>
-        <Route path='https://guillaumesere.github.io/abstract-galerie' element={<Home />} />
-        <Route exact path='/abstract-galerie/galerie-1' element={<Galerie1 />} />
-        <Route exact path='/abstract-galerie/galerie-2' element={<Galerie2 />} />
-        <Route exact path='/abstract-galerie/galerie-3' element={<Galerie3 />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/galerie-1' element={<Galerie1 />} />
+        <Route path='/galerie-2' element={<Galerie2 />} />
+        <Route path='/galerie-3' element={<Galerie3 />} />
     </Routes>
     <Footer />
     </>

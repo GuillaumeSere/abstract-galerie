@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className='home'>
         <h1 className='title'>Galerie d'<span>Images</span> Abstrait</h1>
-        <Link to='/abstract-galerie/galerie-1'><img src={img} alt="tableau abstrait" /></Link>
+        <Link to='/galerie-1'><img src={img} alt="tableau abstrait" /></Link>
     </div>
   )
 }

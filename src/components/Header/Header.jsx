@@ -15,15 +15,15 @@ const Header = () => {
     return (
         <div className='header'>
             <div className="header-home">
-                <Link className='link' to='https://guillaumesere.github.io/abstract-galerie'><AiOutlineHome className='icon' /></Link>
+                <Link className='link' to='/'><AiOutlineHome className='icon' /></Link>
             </div>
             <div className="header-logo">
                 <img src={logo} alt="" />
             </div>
             <div className="header-link">
-                <Link className='link' to='/abstract-galerie/galerie-1'><RiGalleryLine className='icon' /></Link>
-                <Link className='link' to='/abstract-galerie/galerie-2'><TfiGallery className='icon' /></Link>
-                <Link className='link' to='/abstract-galerie/galerie-3'><RiSlideshow4Line className='icon' /></Link>
+                <Link className='link' to='/galerie-1'><RiGalleryLine className='icon' /></Link>
+                <Link className='link' to='/galerie-2'><TfiGallery className='icon' /></Link>
+                <Link className='link' to='/galerie-3'><RiSlideshow4Line className='icon' /></Link>
             </div>
         </div>
     )
