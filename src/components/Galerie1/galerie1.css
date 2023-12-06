@@ -10,7 +10,8 @@
     width: 500px;
     height: 500px;
     margin-top: 8rem;
-    margin-right: 1rem;
+    margin-right: 4rem;
+    cursor: pointer;
 }
 .card-img-galerie-1 img{
     width: 500px;

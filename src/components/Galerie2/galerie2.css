@@ -4,6 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    cursor: pointer;
 }
 .card-galerie-2{
     width: 400px;
