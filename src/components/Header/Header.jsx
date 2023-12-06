@@ -9,7 +9,7 @@ import { TfiGallery } from 'react-icons/tfi'
 const Header = () => {
 
     function handleRefresh() {
-        window.location.load();
+        window.location.reload();
       }
 
     return (
