@@ -10,7 +10,7 @@ function Modal(props) {
 
     return (
         <>
-            <img src={props.image} onClick={handleShow} />
+            <img src={props.image} onClick={handleShow} alt="" />
         </>
     );
 }

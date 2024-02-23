@@ -466,8 +466,12 @@
 
  @media (max-width:1800px){
     .container-galerie-2{
+        display: none;
         position: relative;
-        justify-content: space-around !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 900px;
         margin: 0 auto;
         height: 100vh;
         padding: 1rem;
@@ -482,9 +486,12 @@
         border-radius: 50% !important;
     }
     .card-img-galerie-2 img{
-        width: 200px;
-        height: 200px;
+        height: 300px;
         box-shadow: 0 10px 10px rgba(0,0,0,0.9);
         border-radius: 50% !important;
     }
  }
+
+ 
+
+ 

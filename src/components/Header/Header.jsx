@@ -8,10 +8,6 @@ import { TfiGallery } from 'react-icons/tfi'
 
 const Header = () => {
 
-    function handleRefresh() {
-        window.location.reload();
-      }
-
     return (
         <div className='header'>
             <div className="header-home">

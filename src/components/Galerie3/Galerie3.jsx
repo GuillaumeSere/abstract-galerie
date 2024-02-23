@@ -3,15 +3,10 @@ import '../../../node_modules/reveal.js/dist/reveal.css';
 import '../../../node_modules/reveal.js/dist/theme/blood.css';
 import '../../../node_modules/reveal.js/plugin/highlight/monokai.css';
 import Reveal from '../../../node_modules/reveal.js/dist/reveal.js';
-import '../../../node_modules/reveal.js/plugin/highlight/highlight.js';
 import './galerie3.css';
 import { data2 } from '../../data/data'
 
 const Galerie3 = () => {
-
-    if (document.body.style.overflow = 'overlay'){
-        document.body.style.overflow = 'hidden';
-       }
 
     useEffect(() => {
         Reveal.initialize({
@@ -20,8 +15,11 @@ const Galerie3 = () => {
             hash: false,
             mouseWheel: true,
         });
-    }, [data2]);
+    }, []);
     
+    if (document.body.style.overflow = 'overlay'){
+        document.body.style.overflow = 'hidden';
+       }
 
     return (
         <div className='reveal'>
