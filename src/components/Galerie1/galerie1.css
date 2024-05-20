@@ -1,49 +1,85 @@
-
-.container-galerie-1{
+/* galerie1.css */
+.container-galerie-1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    margin-left: 4rem;
+    overflow: hidden;
     padding-bottom: 10rem;
+    position: relative;
+    width: 100%;
 }
-.card-galerie-1{
+
+.scrolling-container {
+    display: flex;
+    animation: scroll 1000s linear infinite;
+}
+
+.scrolling-container-inner {
+    display: flex;
+}
+
+.card-galerie-1 {
     width: 500px;
     height: 500px;
-    margin-top: 8rem;
     margin-right: 4rem;
+    margin-top: 14rem;
     cursor: pointer;
 }
-.card-img-galerie-1 img{
+
+.card-img-galerie-1 img {
     width: 500px;
     height: 500px;
     box-shadow: 5px 5px 10px rgba(196, 196, 196, 0.6);
 }
 
-
-@media (max-width: 678px){
-    .card-galerie-1{
-        width: 400px;
-        height: 400px;
-        margin-top: 8rem;
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
     }
-    .card-img-galerie-1 img{
-        width: 400px;
-        height: 400px;
-        box-shadow: 5px 5px 10px rgba(196, 196, 196, 0.6);
+    100% {
+        transform: translateX(-50%);
     }
 }
 
-@media (max-width: 450px){
-    .card-galerie-1{
-        width: 300px;
-        height: 300px;
-        margin-top: 8rem;
+@media (max-width: 678px) {
+    .card-galerie-1 {
+        width: 400px;
+        height: 400px;
+        margin-right: 2rem;
+        margin-top: 18rem;
     }
-    .card-img-galerie-1 img{
+    .card-img-galerie-1 img {
+        width: 400px;
+        height: 400px;
+    }
+    
+}
+
+@keyframes scrollvertical {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 450px) {
+    .card-galerie-1 {
         width: 300px;
         height: 300px;
-        box-shadow: 5px 5px 10px rgba(196, 196, 196, 0.6);
+        margin-left: 5rem;
+        margin-top: 3rem;
+    }
+    .card-img-galerie-1 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .scrolling-container-inner {
+        display: flex;
+        flex-direction: column;
+        animation: scrollvertical 1000s linear infinite;
     }
 }
 
