@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../../../node_modules/reveal.js/dist/reveal.css';
 import '../../../node_modules/reveal.js/dist/theme/blood.css';
 import '../../../node_modules/reveal.js/plugin/highlight/monokai.css';
@@ -7,20 +7,20 @@ import './galerie3.css';
 import { data2 } from '../../data/data'
 
 const Galerie3 = () => {
+    const [isInitialized, setIsInitialized] = useState(false);
 
     useEffect(() => {
-        Reveal.initialize({
-            width: 1360,
-            history: false,
-            hash: false,
-            mouseWheel: true,
-        });
-    }, []);
+        if (!isInitialized) {
+            Reveal.initialize({
+                width: 1360,
+                history: false,
+                hash: false,
+                mouseWheel: true,
+            });
+            setIsInitialized(true);
+        }
+    }, [isInitialized]);
     
-    if (document.body.style.overflow = 'overlay'){
-        document.body.style.overflow = 'hidden';
-       }
-
     return (
         <div className='reveal'>
             <div className="slides">

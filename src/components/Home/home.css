@@ -6,6 +6,7 @@
     flex-direction: column;
     color: white;
     height: 90vh;
+    padding-top: 2rem;
 }
 .title{
     text-align: center;

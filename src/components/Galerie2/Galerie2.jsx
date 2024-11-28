@@ -18,7 +18,6 @@ const Galerie2 = () => {
                                 <img src={image} alt="" onClick={() => window.open(image, '_blank')} />
                             </div>
                         </div>
-
                     </>
                 )
             })
