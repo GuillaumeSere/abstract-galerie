@@ -29,7 +29,7 @@
 .card-img-galerie-1 img {
     width: 500px;
     height: 500px;
-    box-shadow: 5px 5px 10px rgba(196, 196, 196, 0.6);
+    -webkit-box-reflect: below .1rem linear-gradient(transparent 70%, #0004);
 }
 
 @keyframes scroll {

@@ -7,6 +7,7 @@
     height: 500px !important;
     width: 500px !important;
     margin-top: 5rem !important;
+    -webkit-box-reflect: below .1rem linear-gradient(transparent 70%, #0004);
 }
 .controls{
     bottom: 60px !important;
