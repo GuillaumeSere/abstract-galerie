@@ -8,18 +8,18 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 
 function App() {
-  return (
-    <>
-    <Header />
-    <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/galerie-1' element={<Galerie1 />} />
-        <Route path='/galerie-2' element={<Galerie2 />} />
-        <Route path='/galerie-3' element={<Galerie3 />} />
-    </Routes>
-    <Footer />
-    </>
-  )
+    return (
+        <>
+            <Header />
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/galerie-1' element={<Galerie1 />} />
+                <Route path='/galerie-2' element={<Galerie2 />} />
+                <Route path='/galerie-3' element={<Galerie3 />} />
+            </Routes>
+            <Footer />
+        </>
+    )
 };
 
 export default App;
